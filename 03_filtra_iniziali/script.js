@@ -7,9 +7,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 function filtraLetteraA(nomi) {
     let nomiConA = [];
     for (let i = 0; i < nomi.length; i++) {
-        let nome = nomi[i];
-        if (nome[0] === "A") {
-            nomiConA.push(nome);
+        let nome_analizzato = nomi[i];
+        if (nome_analizzato[0] === "A") {
+            nomiConA.push(nome_analizzato);
         }
     }
     return nomiConA
