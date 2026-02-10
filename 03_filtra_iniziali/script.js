@@ -4,21 +4,22 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function iniziali (nomi){
-    let iniziale=[]
-    for(i=0; i<nomi.length; i++){
-    if (nomi[i].length === "A") {
-            iniziale.push(nomi);
+function filtraLetteraA(nomi) {
+    let nomiConA = [];
+    for (let i = 0; i < nomi.length; i++) {
+        let nome = nomi[i];
+        if (nome[0] === "A") {
+            nomiConA.push(nome);
         }
+    }
+    return nomiConA
+}
 
-}
-return iniziale
-}
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
-let soluzione = iniziali(names)
+let soluzione = filtraLetteraA(names)
 console.log(soluzione)
-
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
