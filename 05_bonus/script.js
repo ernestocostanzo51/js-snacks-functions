@@ -9,6 +9,17 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function mattino (nome){
+
+}
+
+function pomeriggio (nome){
+
+}
+
+function sera (nome){
+    
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console

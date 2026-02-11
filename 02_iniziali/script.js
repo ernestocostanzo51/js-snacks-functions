@@ -7,9 +7,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function iniziali (nomi){
     let iniziale=[]
     for(i=0; i<nomi.length; i++){
-    if (nomi[i].length > 0) {
-            iniziale.push(nomi[i][0]);
-        }
+        iniziale.push(nomi[i][0]);
+        
 
 }
 return iniziale
